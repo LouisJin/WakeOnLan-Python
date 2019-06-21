@@ -10,7 +10,7 @@ Require
 ---
 The device which will be wakeup requires the following conditions
 
-#####Software:
+##### Software:
 1. Control Panel -> Network Connections -> Network Card -> Properties -> Configure -> Advance
 	Wake on magic packet : Enabled
 2. Control Panel -> Network Connections -> Network Card -> Properties -> Configure -> Power Management
@@ -20,7 +20,7 @@ The device which will be wakeup requires the following conditions
 3. Control Panel -> Power Options -> Choose what the power buttons do -> Change settings that are currently unavailable
 	uncheck "Turn on fast start-up"
 	
-#####Hardware:
+##### Hardware:
 1. Enter BIOS advance settings，each motherboard has different fields，if you found one of "wake on lan","resume on lan","power on PME","power on by PCI-E device" or "Power on by Onboard LAN", make it enable.
 
 
